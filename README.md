@@ -57,7 +57,13 @@ For running training and testing for social transformer model, run the following
 ```
 
 
-![Alt text](images/Social_LSTM.png)
+![Alt text](images/Social_LSTM_1.png)          ![Alt text](images/Social_LSTM_2.png)
+
+
+![Alt text](images/Transformer_1.png)          ![Alt text](images/Transformer_2.png)
+
+![Alt text](images/Social_Transformer_1.png)          ![Alt text](images/Social_Transformer_2.png)
+
 
 
 
