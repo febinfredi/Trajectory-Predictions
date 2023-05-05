@@ -8,7 +8,9 @@ Predicting the trajectories of pedestrians is a difficult task since it depends 
 displacement and final average displacement as comparison metrics for architecture comparison.
 
 ## Setup/Run
-Install the following dependencies when git cloning, there might be others that might not be mentioned here, be sure to install them.
+
+We use Trajnet++ Dataset which can be downloaded from [here](https://github.com/vita-epfl/trajnetplusplusdata/releases/tag/v4.0)
+The data is divided into train, validation and testing dataset. We use the training and validation data for training the model and validation after each epoch. The testing data can be ed for final testing but the predicted results are not available for checking accuracy of predictions.
 ```
   sudo apt-get install ros-noetic-amcl
 ```
