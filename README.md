@@ -46,6 +46,10 @@ For running training and testing for simple transformer model, run the following
   python train.py
 ```
 
+![Alt text](/images/Social LSTM.png)
+
+
+
 For running training and testing for social transformer model, run the following commands once data is saved in the STAR folder under director data.
 ```
   cd STAR
