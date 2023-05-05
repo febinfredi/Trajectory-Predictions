@@ -22,9 +22,9 @@ For running training and testing for simple lstm model, run the following comman
   python vlstm_train.py
   
   (For Testing the Model)
-  python vlstm_testpy
+  python vlstm_test.py
 ```
-For running training and testing for simple lstm model, run the following commands once data is saved in the social-lstm folder under director data.
+For running training and testing for social lstm model, run the following commands once data is saved in the social-lstm folder under director data.
 ```
   cd social-lstm
   mkdir data
@@ -34,8 +34,24 @@ For running training and testing for simple lstm model, run the following comman
   python train.py
   
   (For Testing the Model)
-  python testpy
+  python tes.tpy
 ```
+For running training and testing for simple transformer model, run the following commands once data is saved in the Transformer folder under director data.
 ```
-  sudo apt-get install ros-noetic-move-base
+  cd Transformer
+  mkdir data
+  (place train, test, validation folder inside data folder)
+  
+  (For Taining the Model)
+  python train.py
+```
+
+For running training and testing for social transformer model, run the following commands once data is saved in the STAR folder under director data.
+```
+  cd STAR
+  mkdir data
+  (place train, test, validation folder inside data folder)
+  
+  (For Taining the Model)
+  python trainval.py
 ```
