@@ -14,14 +14,27 @@ The data is divided into train, validation and testing dataset. We use the train
 
 For running training and testing for simple lstm model, run the following commands once data is saved in the vanilla-lstm folder under director data.
 ```
+  cd vanilla-lstm
+  mkdir data
+  (place train, test, validation folder inside data folder)
+  
   (For Taining the Model)
   python vlstm_train.py
   
   (For Testing the Model)
   python vlstm_testpy
 ```
+For running training and testing for simple lstm model, run the following commands once data is saved in the social-lstm folder under director data.
 ```
-  sudo apt-get install ros-noetic-gmapping
+  cd social-lstm
+  mkdir data
+  (place train, test, validation folder inside data folder)
+  
+  (For Taining the Model)
+  python train.py
+  
+  (For Testing the Model)
+  python testpy
 ```
 ```
   sudo apt-get install ros-noetic-move-base
