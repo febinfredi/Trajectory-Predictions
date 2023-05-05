@@ -11,8 +11,14 @@ displacement and final average displacement as comparison metrics for architectu
 
 We use Trajnet++ Dataset which can be downloaded from [here](https://github.com/vita-epfl/trajnetplusplusdata/releases/tag/v4.0)
 The data is divided into train, validation and testing dataset. We use the training and validation data for training the model and validation after each epoch. The testing data can be ed for final testing but the predicted results are not available for checking accuracy of predictions.
+
+For running training and testing for simple lstm model, run the following commands once data is saved in the vanilla-lstm folder under director data.
 ```
-  sudo apt-get install ros-noetic-amcl
+  (For Taining the Model)
+  python vlstm_train.py
+  
+  (For Testing the Model)
+  python vlstm_testpy
 ```
 ```
   sudo apt-get install ros-noetic-gmapping
