@@ -8,4 +8,13 @@ Predicting the trajectories of pedestrians is a difficult task since it depends 
 displacement and final average displacement as comparison metrics for architecture comparison.
 
 ## Setup/Run
-
+Install the following dependencies when git cloning, there might be others that might not be mentioned here, be sure to install them.
+```
+  sudo apt-get install ros-noetic-amcl
+```
+```
+  sudo apt-get install ros-noetic-gmapping
+```
+```
+  sudo apt-get install ros-noetic-move-base
+```
