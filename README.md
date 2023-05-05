@@ -56,12 +56,15 @@ For running training and testing for social transformer model, run the following
   python trainval.py
 ```
 
+## Results:
 
-![Alt text](images/Social_LSTM_1.png)          ![Alt text](images/Social_LSTM_2.png)
+Social LSTM
+![Alt text](images/Social_LSTM1.png)          ![Alt text](images/Social_LSTM_2.png)
 
-
+Simple Transformer
 ![Alt text](images/Transformer_1.png)          ![Alt text](images/Transformer_2.png)
 
+Social Transformer
 ![Alt text](images/Social_Transformer_1.png)          ![Alt text](images/Social_Transformer_2.png)
 
 
