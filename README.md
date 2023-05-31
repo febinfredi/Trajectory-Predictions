@@ -1,4 +1,4 @@
-# Trajectory-Predictions
+# Trajectory Prediction using Motion Transformer and LSTM
 
 ### *CS 541: Deep Learning - Worcester Polytechnic Institute, Spring 2023*
 ### Members: Febin Fredi, Nihal Suneel Navale, Puru Upadhyay
